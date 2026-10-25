@@ -1,0 +1,7 @@
+GS777 Trading v0.62 — Dashboard Premium
+- Nou ecran Acasa cu stare BTC, radar ±33% filtrat la minimum 1M USDT turnover/24h, risc Demo si jurnal.
+- Navigare Acasa/Ponturi/Miscari/Grafice, acces rapid catre analiza, plan si unelte.
+- Datele de piata se incarca asincron si prezinta explicit indisponibilitatea conexiunii.
+- NO TRADE si avertismente clare: miscarea 24h nu este semnal de executie.
+- Păstrate sectiunile si logica v0.61; fara ordine reale.
+- APK nu a fost compilat; build.ps1 necesita Android SDK configurat pe Windows.

@@ -1,0 +1,6 @@
+GS777 v0.59 - incremental update from v0.58
+OpportunityEngine: Bybit OI/funding/orderbook/spread heuristic and +/-33% scanner.
+RiskEngine: minimum R:R 1:1, daily 2.5% Demo stop (only resolved demo SL).
+TradeJournal: estimated net PnL, profit factor, drawdown and sample warning.
+MainActivity: four buttons on Moneda tab, advanced inspection, radar and risk dashboard.
+LIMITS: not a calibrated win probability; no real order execution; historical backtest remains limited; no websocket streaming; APK not built or verified.

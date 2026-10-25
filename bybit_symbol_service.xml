@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+ android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged|typeViewScrolled"
+ android:accessibilityFeedbackType="feedbackGeneric"
+ android:notificationTimeout="400"
+ android:packageNames="com.bybit.app,com.bybit.eu"
+ android:canRetrieveWindowContent="true"
+ android:accessibilityFlags="flagRetrieveInteractiveWindows"
+ android:description="@string/bybit_service_description" />

@@ -1,0 +1,5 @@
+GS777 Trading v0.69 - Flow Confirmation
+- Gate read-only pentru retest confirmat 4H + volum 4H versus 20 lumanari inchise + OI 1h + funding + spread.
+- Lipsa datelor -> NO TRADE; volum sau OI insuficient -> WATCH.
+- Nicio executie de ordine. Scorurile nu sunt probabilitati.
+- Necesita compilare Android si test pe dispozitiv.

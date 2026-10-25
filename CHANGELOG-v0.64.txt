@@ -1,0 +1,7 @@
+GS777 Trading v0.64 - LIVE TICKER
+- WebSocket public Bybit linear perpetual tickers: BTCUSDT si moneda selectata.
+- Reconectare cu backoff, handshake verificat, ping/pong, timeout si oprire la inchiderea Activity.
+- Actualizare pret BTC si top summary fara polling REST periodic.
+- Dashboard grafice 1H si scoruri folosesc in continuare REST la refresh manual; acestea NU sunt live.
+- Nu se folosesc chei API si nu se plaseaza ordine.
+- Codul nu a fost compilat sau testat pe Android; verificati comportamentul inainte de folosire.

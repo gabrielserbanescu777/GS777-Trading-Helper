@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="ro.gs777.trading">
+ <uses-permission android:name="android.permission.INTERNET" />
+ <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+ <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+ <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+ <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+ <application android:label="GS777 Trading Help" android:icon="@drawable/gs777_icon_v4" android:usesCleartextTraffic="false" android:allowBackup="false" android:theme="@android:style/Theme.Material.NoActionBar">
+  <activity android:name="ro.gs777.trading.MainActivity" android:exported="true">
+   <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+  </activity>
+  <service android:name="ro.gs777.trading.OverlayService" android:exported="false" />
+  <service android:name="ro.gs777.trading.BybitSymbolService" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" android:exported="true">
+   <intent-filter><action android:name="android.accessibilityservice.AccessibilityService" /></intent-filter>
+   <meta-data android:name="android.accessibilityservice" android:resource="@xml/bybit_symbol_service" />
+  </service>
+  <service android:name="ro.gs777.trading.AlertsJob" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="true" />
+ </application>
+</manifest>
+
+
+

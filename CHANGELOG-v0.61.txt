@@ -1,0 +1,6 @@
+GS777 Trading v0.61
+- Backtest: ambiguitatile TP/SL sunt evaluate conservator ca SL in rezultatul brut.
+- Backtest: pozitiile expirate sunt marcate la pretul de inchidere, nu omise din profit factor.
+- Backtest: profit factor foloseste toate rezultatele simulate, inclusiv expirari si ambiguitati.
+- Rezultat brut cumulat ROE afisat separat.
+- Limitari: nu include funding/slippage; ROE cumulativ nu este randament portofoliu; fara compilare APK.

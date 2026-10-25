@@ -1,0 +1,8 @@
+GS777 Trading v0.60 — incremental hardening on v0.59
+- RiskEngine: additionally reject demo margin greater than available capital.
+- Backtest: expose signal count and gross profit factor, explicitly warn about omitted slippage/funding/expiry valuation.
+- Added 6 executable Java risk regression checks (tests/ro/gs777/trading/RiskEngineTest.java).
+- Retained all original v0.59 Java, resources and build scripts.
+Verification: RiskEngine.java + RiskEngineTest.java compiled with javac; 6 tests passed.
+Not verified: Android APK build, live Bybit network, Android UI, end-to-end integration.
+Not implemented in this update: streaming WebSocket, calibrated probability, complete walk-forward backtesting, full UI redesign.

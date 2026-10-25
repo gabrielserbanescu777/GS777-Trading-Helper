@@ -1,0 +1,7 @@
+GS777 Trading Help v0.58 - surse pornind din v0.57
+- Adaugat RiskEngine.java: limita risc 2% per simulare, levier 20x, cost estimat incluzand comisioane si buffer slippage, marja maxima si R:R.
+- Simularile Demo care depasesc riscul sunt blocate (anterior doar avertizare).
+- Scoruri euristice LONG/SHORT 0-100 si NO TRADE/WATCH afisate in analiza.
+- Functiile originale v0.57 sunt pastrate.
+NEIMPLEMENTATE: scorul avansat bazat pe OI/funding/orderbook, backtest walk-forward, integrarea APK, automatizare reala. Nu folositi scorul ca probabilitate.
+Compilare: Windows PowerShell cu SDK/JDK configurate conform build.ps1 (necesita adaptarea caii locale).

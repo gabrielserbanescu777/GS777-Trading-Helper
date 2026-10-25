@@ -1,0 +1,7 @@
+GS777 Trading v0.70
+- Dashboard: status WebSocket si actualizare REST afisate separat.
+- Protectie impotriva aplicarii rezultatelor REST pentru o moneda selectata anterior.
+- Datele analizei se colecteaza pentru simbolul capturat la pornirea cererii.
+- build.ps1 foloseste JAVA_HOME si ANDROID_HOME / ANDROID_SDK_ROOT / LOCALAPPDATA.
+- Versiunea APK setata la 0.70.0, versionCode 70.
+- APK necompilat: mediul de executie nu include Android SDK Platform 35.

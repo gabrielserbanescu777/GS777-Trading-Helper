@@ -1,0 +1,8 @@
+GS777 Trading v0.68 - Breakout / Retest 4H
+- Conservative setup evaluator using only closed 4H candles; current incomplete candle excluded.
+- Breakout threshold based on 20 earlier 4H candles, with no future data leakage.
+- Retest requires a subsequent closed candle to touch and hold the breakout level (0.3% tolerance).
+- Dashboard labels: RETEST CONFIRMAT, BREAKOUT IN ASTEPTARE, INVALIDAT, FARA CONFIRMARE, NEVERIFICAT.
+- Breakout and confirmed retest levels displayed on chart when valid active plan exists.
+- No automatic orders; historical heuristic confirmation is not a profitability guarantee.
+- Android APK not compiled or device-tested.

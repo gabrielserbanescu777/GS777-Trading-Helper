@@ -1,0 +1,7 @@
+GS777 Trading v0.65
+- Live BTC tick updates the final plotted value without appending false 1H candles.
+- Automatic 90-second dashboard data and heuristic score refresh, REST throttled.
+- Guards concurrent dashboard refreshes and removes scheduled refresh on destroy.
+- WebSocket ticker remains the real-time price source.
+- No live trading execution added.
+- Not Android compiled; runtime verification required.
